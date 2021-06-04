@@ -1,0 +1,18 @@
+@host = http://localhost:8080
+
+POST {{host}}/accounts
+Content-Type: application/json
+
+{
+  "owner": "Sasha Levshin",
+  "currency": "USD"
+}
+
+###
+
+get {{host}}/accounts/1
+Content-Type: application/json
+
+###
+
+get {{host}}/accounts?page_id=2&page_size=5
