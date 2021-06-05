@@ -4,8 +4,8 @@ POST {{host}}/accounts
 Content-Type: application/json
 
 {
-  "owner": "Sasha Levshin",
-  "currency": "USD"
+  "owner": "avskzs",
+  "currency": "EUR"
 }
 
 ###
