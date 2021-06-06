@@ -1,5 +1,16 @@
 @host = http://localhost:8080
 
+POST {{host}}/users
+Content-Type: application/json
+
+{
+  "username": "sasha3",
+  "full_name": "Sasha Levshin",
+  "email": "sasha3@email.com",
+  "password": "secret"
+}
+
+###
 POST {{host}}/accounts
 Content-Type: application/json
 
